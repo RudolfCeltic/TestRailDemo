@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8d5bfe48-e495-4b69-9b30-ecd74abfec80"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LoginShaw"
+	namespace="TestRailDemo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://172.31.231.144:8443/ebx-ui/ui
+			</url>
+		</openwebsiterecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d2802133-ce0c-47cd-b3b8-d3dbd3c62b6a"
+		sx="938"
+		sy="525"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8a899662-b8eb-4054-9298-cda4fc7d3e75"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="851,511,175,28"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_ebx-input_error
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ebx-label-1
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_ebx-input_error
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						login
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[1]/?/?/input[@name='login']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="ahathaw"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="21446bc5-e1c4-4098-811a-9cfcb7d079ef">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8a899662-b8eb-4054-9298-cda4fc7d3e75"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="851,511,175,28"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_ebx-input_error
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ebx-label-1
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_ebx-input_error
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						login
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[1]/?/?/input[@name='login']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="53;17"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1dee1bff-c2f1-41a5-8817-c9bf0b610a90"
+		sx="904"
+		sy="586"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0afb1fdd-2378-4304-9bf9-03ef72e22a10"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="851,569,175,28"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_ebx-input
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ebx-label-2
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_ebx-input
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						password
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						password
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[2]/?/?/input[@name='password']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="79408592-8dfd-48c2-b5f8-6a341716eeac">
+				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
+/E0fZdV/5+IP++R/8TRzeQexX8y/r5GrRWV9l1X/AJ+IP++R/wDE0fZdV/5+IP8Avkf/ABNHN5B7
+FfzL+vkatFZX2XVf+fiD/vkf/E0fZdV/5+IP++R/8TRzeQexX8y/r5GrRWV9l1X/AJ+IP++R/wDE
+0fZdV/5+IP8Avkf/ABNHN5B7FfzL+vkatFZX2XVf+fiD/vkf/E0fZdV/5+IP++R/8TRzeQexX8y/
+r5GrRWV9l1X/AJ+IP++R/wDE0fZdV/5+IP8Avkf/ABNHN5B7FfzL+vkatFZX2XVf+fiD/vkf/E0f
+ZdV/5+IP++R/8TRzeQexX8y/r5GrWVJ/yH7b/rmf/ZqX7Lqv/PxB/wB8j/4mlgsrz+0I7m6ljfYC
+Pl64wfb3pNt9C4RULtyWzNOiiirOUKKKKACiiigAooooAKKKKACiiigAooooAKKKKAEw/wDeX8v/
+AK9GH/vL+X/16WigBMP/AHl/L/69GH/vL+X/ANelooATD/3l/L/69GH/ALy/l/8AXpaKAEw/95fy
+/wDr0Yf+8v5f/XpaKAEw/wDeX8v/AK9GH/vL+X/16WigBMP/AHl/L/69GH/vL+X/ANelooATD/3l
+/L/69GH/ALy/l/8AXpaKAEw/95fy/wDr0Yf+8v5f/XpaKAEw/wDeX8v/AK9GH/vL+X/16WigBMP/
+AHl/L/69GH/vL+X/ANelooATD/3l/L/69GH/ALy/l/8AXpaKAEw/95fy/wDr0Yf+8v5f/XpaKAEw
+/wDeX8v/AK9GH/vL+X/16WigBMP/AHl/L/69GH/vL+X/ANelooATD/3l/L/69GH/ALy/l/8AXpaK
+AEw/95fy/wDr0Yf+8v5f/XpaKAEw/wDeX8v/AK9GH/vL+X/16WigBMP/AHl/L/69GH/vL+X/ANel
+ooATD/3l/L/69GH/ALy/l/8AXpaKAEw/95fy/wDr0Yf+8v5f/XpaKAEw/wDeX8v/AK9GH/vL+X/1
+6WigBMP/AHl/L/69GH/vL+X/ANelooATD/3l/L/69GH/ALy/l/8AXpaKAEw/95fy/wDr0Yf+8v5f
+/XpaKAEw/wDeX8v/AK9GH/vL+X/16WigBMP/AHl/L/69GH/vL+X/ANelooATD/3l/L/69FLRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="ahathaw"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="c01b1ee1-7e4b-4087-aa0c-74f3dda64ddc">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0afb1fdd-2378-4304-9bf9-03ef72e22a10"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="851,569,175,28"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_ebx-input
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ebx-label-2
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_ebx-input
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						password
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						password
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[2]/?/?/input[@name='password']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="31be91f9-0f4d-4b11-b28e-30d649495294">
+				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
+AKKKKACiiigAooooAKKKKACiiigD/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="12;3"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="86f0b500-3e8c-4f76-b090-1ba7f0875ee2"
+		sx="1177"
+		sy="626"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a13c854d-5967-4a72-87b9-7dce5ec072b9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1165,623,37,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ebx-simpleButton-label
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Log in
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ebx-simpleButton-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']//button/span[@innertext='Log in']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="27070ffa-7ff5-4cfc-ac25-59cf7d41fe48">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAwAE0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKr
+zTOshVTjFAFiisxtUjRirTYIOD8v/wBak/taL/nv/wCOH/ClzLuaeyqfyv7jUorL/taL/nv/AOOH
+/Cj+1ov+e/8A44f8KOZdw9lU/lf3GpRWX/a0X/Pf/wAcP+FPi1BZmKxy7iBn7uP6Ucy7idOaV3F/
+caNFMhcumT1zin0yAqnP/rmq5VOf/XNQJmfp8Mct5dCRFfDHGRn1qaWGGO2lm8iMiNS2No5wOlRa
+a2y7uzjPz/1NWL51/s+4UKcGNu/saiKVjoryanZPt+SGQW6OZVmt4Y2jfacfMDwD6e9Si0hEoUwx
+Hn+6Kjms3mvZGElxEHnAJjcqNoiHP5jGabZNcI4FzJ5jGNJeV2kbs5H6VdkY88u5P9jhOP3UQyeB
+tqjAoTVplVQoCdAPpWl5nK8fdOaz4znWJz/sf4VDWxtSk2p3fT/I1rX/AFZ+tTVDa/6s/WpqswCq
+80LtIWUZzViigDIfR1eRnPmZYknDCof7Nggcw3UY8qdgI5cgOrY6Z9Dit2mTRRzxNFKoZGGCDSSS
+NJVZyVmx9ZN5aJfanIMtmKJAdpHcsasra3qRmNL9SB91nh3MB7nPP5VPa2yWsbKrO5ZizM5yWJ/y
+KbVyYycXdGZ/Yq/9NP8AvoVLb6Z9nkLpuJIxyRWpRUqKRcq1SSs2MhQomD1zmn0UVRkf/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="51260534-4384-4f75-ad5e-691e165a9c40"
+	name="TestRailDemoRepository"
+	relativepath="TestRailDemoRepository.rxrep">
+		<codegen
+		classname="TestRailDemoRepository"
+		namespace="TestRailDemo">
+		</codegen>
+		<rootfolder
+		id="4f5d5f03-992b-4b7d-a3b4-9301e753ea5f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LoginShaw.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

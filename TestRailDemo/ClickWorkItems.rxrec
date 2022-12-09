@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3618ff1c-e63a-4cfd-a87b-9b733ab01b37"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickWorkItems"
+	namespace="TestRailDemo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="33;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="af2d3d28-5408-4d65-b9e6-7cfcf98f2191"
+		sx="82"
+		sy="290"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="31d4645d-d0f3-4d69-a7b0-956c0849eb92"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="2"
+				prefcap="spantag"
+				rect="49,284,61,17"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_ebx-text-overflow
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Workflow
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/div/div[1]/div/div[2]/div/div[1]//ul/li[3]/div[2]/div/div/?/?/span[@innertext='Workflow']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="3343409d-99ae-47d3-823d-147428b00297">
+				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
+/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="44;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="beb1e371-95bc-430a-b2c9-9ce03d74c1e1"
+		sx="113"
+		sy="318"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="10074211-8a5c-4739-a512-4196e33cb0ff"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="2"
+				prefcap="spantag"
+				rect="69,312,71,17"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_ebx-text-overflow
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Work Items
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/div/div[1]/div/div[2]/div/div[1]//ul/ul[2]/li[1]/div[2]/a[@href&gt;'https://172.31.231.144:84']/span[@innertext='Work Items']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="dfc81a19-147c-4cfe-8904-b7b95b2614ea">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="51260534-4384-4f75-ad5e-691e165a9c40"
+	name="TestRailDemoRepository"
+	relativepath="TestRailDemoRepository.rxrep">
+		<codegen
+		classname="TestRailDemoRepository"
+		namespace="TestRailDemo">
+		</codegen>
+		<rootfolder
+		id="4f5d5f03-992b-4b7d-a3b4-9301e753ea5f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickWorkItems.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

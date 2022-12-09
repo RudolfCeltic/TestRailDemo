@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="33.38s"
+		durationms="33383"
+		type="root"
+		rid="1d5895173c286d38"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="rtarvid"
+		rxversion="10.1.7.0"
+		host="VWWDVDIPENG0060"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1924x1004"
+		timestamp="12/9/2022 1:16:23 PM"
+		timestampiso="2022-12-09T13:16:23"
+		endtime="12/9/2022 1:16:57 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FilterOffered">
+		<detail>
+			FilterOffered
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.550"
+			timeRelativeToTestModuleStartTime="00:16.550"
+			timeWallClock="13:16:40"
+			time="00:16.550"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ShawQA.EbxLegacyComponent.EbxIcon' at 5;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//button[#'ebx_filtersButton']/span"
+				itempath=".//button[#'ebx_filtersButton']/span"
+				fullname="TestRailDemoRepository.ShawQA.EbxLegacyComponent.EbxIcon"
+				id="ea34ed2b267d47b5a434ff30ff5c6b9e"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\FilterOffered.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.935"
+			timeRelativeToTestModuleStartTime="00:24.935"
+			timeWallClock="13:16:48"
+			time="00:24.935"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ShawQA.EbxLegacyComponent.EbxSimpleSearchFilterNodeSelectorListF' at 296;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_FilterBlockList']/?/?/form[@action='https://172.31.231.144:8443/ebx/']/div[3]//select[@name='ebx_SimpleSearchFilterNodeSelectorList_FILTER_0']"
+				itempath=".//div[#'ebx_FilterBlockList']/?/?/form[@action='https://172.31.231.144:8443/ebx/']/div[3]//select[@name='ebx_SimpleSearchFilterNodeSelectorList_FILTER_0']"
+				fullname="TestRailDemoRepository.ShawQA.EbxLegacyComponent.EbxSimpleSearchFilterNodeSelectorListF"
+				id="d86fd92e18e54bc699fcc26cda3140e3"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\FilterOffered.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.792"
+			timeRelativeToTestModuleStartTime="00:26.792"
+			timeWallClock="13:16:50"
+			time="00:26.792"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ShawQAGoogleChrome' at 1469;487.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Shaw QA - Google Chrome']"
+				itempath="/form[@title='Shaw QA - Google Chrome']"
+				fullname="TestRailDemoRepository.ShawQAGoogleChrome.Self"
+				id="a133c6f329bb4d3b9bc270a2584c0a2a"
+				timeout="30000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\FilterOffered.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.546"
+			timeRelativeToTestModuleStartTime="00:27.546"
+			timeWallClock="13:16:51"
+			time="00:27.546"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ShawQA.EbxLegacyComponent.EbxIcon1' at 7;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_FilterBlockList']/div[1]/form[@action='https://172.31.231.144:8443/ebx/']/div[3]/div[1]/div[1]/div[1]/div/div/div/div/div[2]//button[@title='Open drop-down list']/span"
+				itempath=".//div[#'ebx_FilterBlockList']/div[1]/form[@action='https://172.31.231.144:8443/ebx/']/div[3]/div[1]/div[1]/div[1]/div/div/div/div/div[2]//button[@title='Open drop-down list']/span"
+				fullname="TestRailDemoRepository.ShawQA.EbxLegacyComponent.EbxIcon1"
+				id="c69fe1bbbe4243949418c399d428fcf7"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\FilterOffered.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.124"
+			timeRelativeToTestModuleStartTime="00:30.124"
+			timeWallClock="13:16:53"
+			time="00:30.124"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ShawQA.EbxLegacyComponent.Offered' at 51;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_ISS_Results']/div[@innertext='Offered']"
+				itempath=".//div[#'ebx_ISS_Results']/div[@innertext='Offered']"
+				fullname="TestRailDemoRepository.ShawQA.EbxLegacyComponent.Offered"
+				id="f706a9ffd28841b18891fffbbae35181"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\FilterOffered.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.409"
+			timeRelativeToTestModuleStartTime="00:31.409"
+			timeWallClock="13:16:55"
+			time="00:31.409"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ShawQA.EbxLegacyComponent.Apply' at 27;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_FilterBlockList']/?/?/form[@action='https://172.31.231.144:8443/ebx/']//button[@innertext='Apply']"
+				itempath=".//div[#'ebx_FilterBlockList']/?/?/form[@action='https://172.31.231.144:8443/ebx/']//button[@innertext='Apply']"
+				fullname="TestRailDemoRepository.ShawQA.EbxLegacyComponent.Apply"
+				id="50a3aea1d2474ea7911f3314cd09470c"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\FilterOffered.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

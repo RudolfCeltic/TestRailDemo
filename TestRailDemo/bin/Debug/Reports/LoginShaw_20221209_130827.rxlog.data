@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="28.42s"
+		durationms="28422"
+		type="root"
+		rid="1e0b4fb6c38f9ba"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="rtarvid"
+		rxversion="10.1.7.0"
+		host="VWWDVDIPENG0060"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1924x1004"
+		timestamp="12/9/2022 1:08:36 PM"
+		timestampiso="2022-12-09T13:08:36"
+		endtime="12/9/2022 1:09:05 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="LoginShaw">
+		<detail>
+			LoginShaw
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.739"
+			timeRelativeToTestModuleStartTime="00:17.739"
+			timeWallClock="13:08:54"
+			time="00:17.739"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://172.31.231.144:8443/ebx-ui/ui' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\LoginShaw.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.864"
+			timeRelativeToTestModuleStartTime="00:17.864"
+			timeWallClock="13:08:54"
+			time="00:17.864"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ShawQA.Https172312311448443EbxUiUi.LoginField' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[1]/?/?/input[@name='login']"
+				itempath="div[1]/div[1]/?/?/input[@name='login']"
+				fullname="TestRailDemoRepository.ShawQA.Https172312311448443EbxUiUi.LoginField"
+				id="8a899662b8eb40549298cda4fc7d3e75"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\LoginShaw.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.983"
+			timeRelativeToTestModuleStartTime="00:23.983"
+			timeWallClock="13:09:00"
+			time="00:23.983"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ahathaw' with focus on 'ShawQA.Https172312311448443EbxUiUi.LoginField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[1]/?/?/input[@name='login']"
+				itempath="div[1]/div[1]/?/?/input[@name='login']"
+				fullname="TestRailDemoRepository.ShawQA.Https172312311448443EbxUiUi.LoginField"
+				id="8a899662b8eb40549298cda4fc7d3e75"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\LoginShaw.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.777"
+			timeRelativeToTestModuleStartTime="00:24.777"
+			timeWallClock="13:09:01"
+			time="00:24.777"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ShawQA.Https172312311448443EbxUiUi.Password' at 53;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[2]/?/?/input[@name='password']"
+				itempath="div[1]/div[2]/?/?/input[@name='password']"
+				fullname="TestRailDemoRepository.ShawQA.Https172312311448443EbxUiUi.Password"
+				id="0afb1fdd237843049bf903ef72e22a10"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\LoginShaw.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.656"
+			timeRelativeToTestModuleStartTime="00:25.656"
+			timeWallClock="13:09:02"
+			time="00:25.656"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ahathaw' with focus on 'ShawQA.Https172312311448443EbxUiUi.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[2]/?/?/input[@name='password']"
+				itempath="div[1]/div[2]/?/?/input[@name='password']"
+				fullname="TestRailDemoRepository.ShawQA.Https172312311448443EbxUiUi.Password"
+				id="0afb1fdd237843049bf903ef72e22a10"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\LoginShaw.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.393"
+			timeRelativeToTestModuleStartTime="00:26.393"
+			timeWallClock="13:09:03"
+			time="00:26.393"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ShawQA.Https172312311448443EbxUiUi.LogInButton' at 12;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']//button/span[@innertext='Log in']"
+				itempath=".//button/span[@innertext='Log in']"
+				fullname="TestRailDemoRepository.ShawQA.Https172312311448443EbxUiUi.LogInButton"
+				id="a13c854d59674a7287b97dce5ec072b9"
+				timeout="90000"
+				codefile="\\nas72v2\vdi_data\USA\rtarvid\Documents\Ranorex\RanorexStudio Projects\TestRailDemo\TestRailDemo\LoginShaw.cs"
+				codeline="103"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

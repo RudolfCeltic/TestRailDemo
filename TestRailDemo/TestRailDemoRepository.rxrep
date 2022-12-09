@@ -1,0 +1,269 @@
+﻿<repository
+id="51260534-4384-4f75-ad5e-691e165a9c40"
+name="TestRailDemoRepository">
+	<codegen
+	classname="TestRailDemoRepository"
+	namespace="TestRailDemo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="4f5d5f03-992b-4b7d-a3b4-9301e753ea5f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="e440545c-f053-4839-bb7d-f716a66fc7b7"
+		isrooted="True"
+		name="ShawQA"
+		refpath="/dom[@domain='172.31.231.144:8443']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="e3d72da7-b4cb-4182-8327-4ca6f557ed2a"
+			isrooted="True"
+			name="Https172312311448443EbxUiUi"
+			refpath="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="a13c854d-5967-4a72-87b9-7dce5ec072b9"
+				name="LogInButton"
+				refimgid="9231d258-acff-47f5-9bee-9402fe1ceb62"
+				refpath="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form/div[2]/div/button/span[@innertext='Log in']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']//button/span[@innertext='Log in']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="8a899662-b8eb-4054-9298-cda4fc7d3e75"
+				name="LoginField"
+				refimgid="22ad14c9-4d2d-4a6c-b032-4e119b38441b"
+				refpath="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[1]/div[2]/input[@name='login']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[1]/?/?/input[@name='login']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="0afb1fdd-2378-4304-9bf9-03ef72e22a10"
+				name="Password"
+				refimgid="2abb0bf3-bc8e-400f-a196-437667b4c98d"
+				refpath="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form/div[1]/div[2]/div[2]/input[@name='password']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']/div[1]/div[2]/?/?/input[@name='password']
+				</item>
+				<basepath>
+					/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/form[@action='https://172.31.231.144:8443/ebx-ui/ui']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,svgtag"
+			capname="svgtag"
+			id="00adac5e-419a-4a9e-b9b9-74021a3489f9"
+			name="BurgerMenu"
+			refimgid="939da570-38ce-47e6-9585-c3044354ff06"
+			refpath="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[1]/div[2]/div/button/svg"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[1]//button[@title='Select perspective']/svg
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="c6b95a2a-eeb2-48ac-868a-d5282fdbddc2"
+			name="ShawFacilityMaster"
+			refimgid="b1cb419c-19eb-4552-a218-41f3b13661dc"
+			refpath="/dom[@domain='172.31.231.144:8443']/body/div[2]/div[1]/div/div/div/ul/ul[1]/li[3]/span[@innertext='Shaw Facility Master']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='172.31.231.144:8443']/body//ul/ul[1]/li[3]/span[@innertext='Shaw Facility Master']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="31d4645d-d0f3-4d69-a7b0-956c0849eb92"
+			name="Workflow"
+			refimgid="3d5f8ad4-b53b-4d51-b785-31f431a45eb1"
+			refpath="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div/ul/li[3]/div[2]/div/div/div[2]/span[@innertext='Workflow']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/div/div[1]/div/div[2]/div/div[1]//ul/li[3]/div[2]/div/div/?/?/span[@innertext='Workflow']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="10074211-8a5c-4739-a512-4196e33cb0ff"
+			name="WorkItems"
+			refimgid="d3f280ce-329e-4cbe-aefb-70ed21a2b07a"
+			refpath="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div/ul/ul[2]/li[1]/div[2]/a/span[@innertext='Work Items']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[2]/div/div[1]/div/div[2]/div/div[1]//ul/ul[2]/li[1]/div[2]/a[@href&gt;'https://172.31.231.144:84']/span[@innertext='Work Items']
+			</item>
+			<folder
+			addcaps="unknown,webelement,iframetag"
+			capname="iframetag"
+			id="872671a5-0169-4b99-852c-b11753955599"
+			isrooted="True"
+			name="EbxLegacyComponent"
+			refpath="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="ea34ed2b-267d-47b5-a434-ff30ff5c6b9e"
+				name="EbxIcon"
+				refimgid="95675ef1-ff95-4ce3-b20d-d7b019d85c41"
+				refpath="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//button[#'ebx_filtersButton']/span"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//button[#'ebx_filtersButton']/span
+				</item>
+				<item
+				addcaps="button,webelement,buttontag"
+				capname="buttontag"
+				id="50a3aea1-d247-4ea7-911f-3314cd09470c"
+				name="Apply"
+				refimgid="3904990a-6a4c-4c9d-a48c-541e23b21fdf"
+				refpath="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_FilterBlockList']/div[1]/form/div[3]/div[2]/div[1]/button[@innertext='Apply']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_FilterBlockList']/?/?/form[@action='https://172.31.231.144:8443/ebx/']//button[@innertext='Apply']
+				</item>
+				<item
+				addcaps="unknown,webelement,selecttag"
+				capname="selecttag"
+				id="d86fd92e-18e5-4bc6-99fc-c26cda3140e3"
+				name="EbxSimpleSearchFilterNodeSelectorListF"
+				refimgid="1bcddccb-6e3e-4251-bf3c-315cebfdfc3a"
+				refpath="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_FilterBlockList']/div[1]/form/div[3]/div[1]/div[1]/div[2]/div/select[@name='ebx_SimpleSearchFilterNodeSelectorList_FILTER_0']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_FilterBlockList']/?/?/form[@action='https://172.31.231.144:8443/ebx/']/div[3]//select[@name='ebx_SimpleSearchFilterNodeSelectorList_FILTER_0']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="c69fe1bb-be42-4394-9418-c399d428fcf7"
+				name="EbxIcon1"
+				refimgid="4414d60d-18f0-4a1f-b9dd-23f0861d9a85"
+				refpath="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_FilterBlockList']/div[1]/form/div[3]/div[1]/div[1]/div[1]/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/button/span"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_FilterBlockList']/div[1]/form[@action='https://172.31.231.144:8443/ebx/']/div[3]/div[1]/div[1]/div[1]/div/div/div/div/div[2]//button[@title='Open drop-down list']/span
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="f706a9ff-d288-41b1-8891-fffbbae35181"
+				name="Offered"
+				refimgid="8863ab91-c1f3-4460-8a06-cb8f047d0c38"
+				refpath="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_ISS_Results']/div[@innertext='Offered']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_ISS_Results']/div[@innertext='Offered']
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="tdtag"
+				id="61c18062-42a8-4c41-ad92-b2b279d0cef8"
+				name="Offered1"
+				refimgid="acdacf28-75fa-409d-919c-9fd18b32e2b6"
+				refpath="/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_workspaceTable_mainScroller']/table/tbody/tr[1]/td[@innertext='Offered']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']//div[#'ebx_workspaceTable_mainScroller']//td[@innertext='Offered']
+				</item>
+				<basepath>
+					/dom[@domain='172.31.231.144:8443']//iframe[#'ebx-legacy-component']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="58590f15-0057-4c5b-8dbf-434af65333e9"
+			name="AnthonyHathaway"
+			refimgid="6f8329c1-0a6b-458d-99e4-84c17e6f66af"
+			refpath="/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[1]/div[2]/div/span/button[@innertext='Anthony Hathaway']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='172.31.231.144:8443']//div[#'_ebx-root']/div/div/div[1]/div[2]//button[@innertext='Anthony Hathaway']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="4b907fa5-b20f-4405-b7ee-cca3757fb200"
+			name="Logout"
+			refimgid="bbb8a3f4-7a76-4c5a-aa77-8dadecb5861d"
+			refpath="/dom[@domain='172.31.231.144:8443']/body/div[2]/div/div/div[2]/button/span[@innertext='Logout']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='172.31.231.144:8443']/body/div[2]//button/span[@innertext='Logout']
+			</item>
+			<basepath>
+				/dom[@domain='172.31.231.144:8443']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a133c6f3-29bb-4d3b-9bc2-70a2584c0a2a"
+		isrooted="True"
+		name="ShawQAGoogleChrome"
+		refimgid="22e50b5e-5a94-4db8-b2d0-71b0ded98c6a"
+		refpath="/form[@title='Shaw QA - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='Shaw QA - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPZdPJTxNxFAfwOUmCURDjgkGoIMjW
+TqFqCJZ2CiogIEQ9mYiJ0XjyD1BBr16kBSSVRYp7TDh6MCIWkDUmjJ64WVO6EZYW0LjM8Pv65tcR
+QV7yyfc3nfdemulU+L/m7RYp7LC45sotvrnyoyCMruWIZPGE7aJBb9taPruYHJYszojDAg2dWVgq
+pvwnZCe2IqfWq4/FS/sgJBXL1MCH6EzNRQjaihjPMjMLbDBrNcmbloRsZic1aY3rAlai5+wJEyOY
+tYramfOXmpx8WHxZb3h8tSx+0yoyP90MX6jCz+mPCMzGsPKDgUW9WJProEwWM5UrAmHKhCgJ5ucN
+nkp3LWYcIm01Ini+kg9e93zDsbsx7qJ7FcGFGNTpKigTRqgTJijjRqaMF7oE05OzsvlpPe7dKMPX
+kgJ8Hx5Ebcsyiu/ESHTdtd5VsNgU1PF8ThnLY8QnGPvqYOyrZSWdZzBZISIYXYPYvMSZm6NEy/h1
+YD5KgzlQRrNpOFtLCIW9NSjQXWmSmN8fhbFpCcbbi4RSO/PrJf481NFM3SFOyO+u9uX3VLO8nmpQ
+Yir0GZe7l5F/a3FdATnXHgNbeAP1Q7ruIJSRNFnI66x05nZVIreriit/0YiZyDIa2qPIvbnANdLC
+mcgKlKnjUIYPkFSoI6m0INUjHHFXSDnuU8h5eBp/0/HsEga+jPGvrC2bDH5C6+saGtwLlShDezh4
+98Vf7ayOCidhhztOaqDJelDBNNrZ1kW/0Nv9UId202AKFG8K1oZ2xV8krTKc9uTMNoec2V6OLKIl
+1+bg+aifnvj7JKZ4d1KSwR0yvEmb/w/akoxWu8vgkmBo1bkkZnWX0tB2XSINJ7q2DG8sWmQgfekt
+Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
